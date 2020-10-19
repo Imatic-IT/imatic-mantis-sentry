@@ -1,0 +1,12 @@
+{
+    "name": "imatic-it/imatic-sentry",
+    "type": "mantisbt-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.4",
+        "sentry/sdk": "^3.0"
+    },
+    "autoload": {
+        "files": ["src/init.php"]
+    }
+}
