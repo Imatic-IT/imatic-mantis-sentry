@@ -2,7 +2,16 @@
 
 # Imatic Sentry
 
-Sends errors to Sentry
+## Purpose
+
+Sends errors to Sentry.
+
+## Installation
+
+```
+composer config --unset platform.php
+composer require imatic-it/imatic-sentry
+```
 
 ## Configuration
 
